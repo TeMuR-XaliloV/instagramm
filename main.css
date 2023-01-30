@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: black;
+}
+nav{
+    align-items: center;
+}
+.container{
+    max-width: 500px;
+    margin: auto;
+    background-color: black;
+    height: 100vh;
+}
+
+.top{
+    background-color: black;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    padding: 8px;
+    padding-top: 10px;
+}
+.logo{
+    background-size: cover;
+}
+.messenger{
+    color: white;
+}
+.stories{
+    overflow-x: scroll;
+    display: flex;
+    padding-top: 50px;
+}
+.stories::-webkit-scrollbar{
+    display: none;
+}
+.buttons{
+    color: white;
+    background-color: black;
+    height: 45px;
+    margin-top: -4px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    justify-content: space-between;
+    padding-top: 30px;
+    display: flex;
+}
+.leftbtns{
+    gap: 15px;
+    display: flex;
+    align-items: center;
+}
+.rightbtns{
+    display: flex;
+    align-items: center;
+}
+#like{
+    height: 28px;
+    cursor: pointer;
+}
+.profile{
+    position: fixed;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: black;
+    bottom: 0px;
+    width: 500px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu{
+    display: none;
+}
+.account{
+    background-image: url(../img/account.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.showlike{
+    background-image: url(../img/showlike.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.showsave{
+    background-image: url(../img/bookmark.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 35px;
+}
+.showlikes{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 35px;
+    background-image: url(../img/showlikes.png);
+}
+#home{
+    cursor: pointer;
+}
+#search{
+    cursor: pointer;
+}
+#comments{
+    cursor: pointer;
+}
+#send{
+    cursor: pointer;
+}
+#save{
+    cursor: pointer;
+}
+#add{
+    cursor: pointer;
+}
+#likes{
+    cursor: pointer;
+}
+#profile{
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 506px) {
+    .top{
+        max-width: 100%;
+    }
+    .buttons{
+        max-width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .stories img{
+        margin-top: 10px;
+        max-width: 100%;
+    }
+    .posts img{
+        max-width: 100%;
+    }
+    .profile{
+        max-width: 100%;
+    }
+}
+@media (max-width: 391px) {
+    .messenger{
+        width: 30px;
+        height: 30px;
+    }
+    #like{
+        width: 25px;
+        height: 25px;
+    }
+    #comments{
+        width: 27px;
+        height: 27px;
+    }
+    #send{
+        width: 27px;
+        height: 27px;
+    }
+    #save{
+        width: 27px;
+        height: 27px;
+    }
+    #home{
+        width: 27px;
+        height: 27px;
+    }
+    #search{
+        width: 27px;
+        height: 27px;
+    }
+    #add{
+        width: 27px;
+        height: 27px;
+    }
+    #likes{
+        width: 27px;
+        height: 27px;
+    }
+    #profile{
+        width: 28px;
+        height: 28px;
+    }
+}

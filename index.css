@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: sans-serif;
+    overflow: hidden;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: white;
+    max-width: 500px;
+    text-align: center;
+    border-radius: 10px;
+}
+.logo{
+    background-size: cover;
+    margin: auto;
+    margin-bottom: 20px;
+    max-width: max-content;
+    font-size: 50px;
+}
+#username{
+    width: 330px;
+    padding: 14px;
+    font-size: 18px;
+    border-radius: 7px;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+    background-color: white;
+    color: black;
+}
+#password{
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    width: 330px;
+    padding: 14px;
+    border-radius: 7px;
+    border: 1px solid gray;
+    margin-bottom: 50px;
+}
+#login{
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+    border-radius: 7px;
+    background: #0071fc;
+    width: 330px;
+    border: none;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+#login:hover{
+    background-color: #0201fc;
+}
+#login a{
+    color: white;
+}
+.ors{
+    display: flex;
+    margin: auto;
+    max-width: max-content;
+}
+.or{
+    color: rgb(98, 93, 93);
+    margin-bottom: 50px;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+hr{
+    width: 138px;
+    margin-top: 10px;
+    height: 0px;
+    color: black;
+}
+.facebook{
+    max-width: max-content;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.facelogo{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.facetext{
+    padding-left: 5px;
+    color: #0071fc;
+}
+.reset{
+    color: #0071fc;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 425px) {
+    #username{
+        max-width: 330px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    #password{
+        max-width: 330px;
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-bottom: 50px;
+    }
+    #login{
+        max-width: 330px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    hr{
+        max-width: 140px;
+    }
+}
+@media (max-width: 376px) {  
+    #username{
+        max-width: 330px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }    
+    #password{
+        max-width: 330px;
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-bottom: 50px;
+    }    
+    #login{
+        max-width: 330px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }    
+    hr{
+        max-width: 140px;
+    }    
+}    
+
